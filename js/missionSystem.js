@@ -11,27 +11,36 @@ let lastGamma = 0;
 
 export function startMission(crosswalk) {
     if (mission.active) return;
-    
+
+    // iOS 13+ motion permission request
+    if (typeof DeviceMotionEvent !== 'undefined' && typeof DeviceMotionEvent.requestPermission === 'function') {
+        DeviceMotionEvent.requestPermission().then(state => {
+            if (state !== 'granted') {
+                console.log('[Mission] 모션 권한 거부됨');
+            }
+        }).catch(() => {});
+    }
+
     mission.active = true;
     mission.currentIndex = 0;
     mission.detecting = true;
-    
+
     const missionPanel = document.getElementById('mission-panel');
     if (missionPanel) missionPanel.classList.add('active');
-    
+
     updateMissionUI();
     startGyroDetection();
 }
 
 export function updateMissionUI() {
     if (!mission.active) return;
-    
+
     const currentM = MISSIONS[mission.currentIndex];
     if (!currentM) {
         completeMission();
         return;
     }
-    
+
     document.getElementById('mission-current').textContent = currentM.id;
     document.getElementById('mission-text').textContent = currentM.text;
     document.getElementById('mission-instruction').textContent = currentM.instruction;
@@ -43,30 +52,30 @@ export function completeMission() {
     mission.active = false;
     mission.detecting = false;
     stopGyroDetection();
-    
+
     const missionPanel = document.getElementById('mission-panel');
     const missionStatus = document.getElementById('mission-status');
-    
+
     if (missionStatus) missionStatus.textContent = '미션 완료! 🎉';
     if (missionPanel) missionPanel.classList.remove('active');
-    
+
     if ('vibrate' in navigator) navigator.vibrate([500, 200, 500]);
 }
 
 function missionSuccess() {
     mission.currentIndex++;
-    
+
     if (mission.currentIndex >= MISSIONS.length) {
         completeMission();
         return;
     }
-    
+
     const missionStatus = document.getElementById('mission-status');
     const missionPanel = document.getElementById('mission-panel');
-    
+
     if (missionStatus) missionStatus.textContent = '잘했어요! 🎉';
     if (missionPanel) missionPanel.classList.add('mission-success');
-    
+
     setTimeout(() => {
         if (missionPanel) missionPanel.classList.remove('mission-success');
         updateMissionUI();
@@ -86,27 +95,45 @@ export function stopGyroDetection() {
 
 function handleShake(event) {
     if (!mission.active || !mission.detecting) return;
-    
+
     const currentM = MISSIONS[mission.currentIndex];
     if (!currentM || currentM.type !== 'shake') return;
-    
-    const acc = event.acceleration;
-    if (!acc) return;
-    
-    if (Math.abs(acc.x || 0) > 15) {
+
+    // acceleration이 null이면 accelerationIncludingGravity 사용
+    let ax = event.acceleration?.x;
+    if (ax === null || ax === undefined) {
+        ax = event.accelerationIncludingGravity?.x || 0;
+        // 중력 보정: 정지 상태에서 약 0~9.8 사이, 흔들림 감지는 차분값으로 판단
+    }
+
+    if (Math.abs(ax) > 15) {
         missionSuccess();
     }
 }
 
 function handleRotate(event) {
     if (!mission.active || !mission.detecting) return;
-    
+
     const currentM = MISSIONS[mission.currentIndex];
     if (!currentM || currentM.type !== 'rotate') return;
-    
+
     const gamma = event.gamma || 0;
     if (lastGamma !== 0 && Math.abs(gamma - lastGamma) > 20) {
         missionSuccess();
     }
     lastGamma = gamma;
 }
+
+// 데스크톱/키보드 테스트용 수동 미션 넘기기
+document.addEventListener('keydown', e => {
+    if (!mission.active) return;
+    if (e.key === 'Enter' || e.key === ' ') {
+        missionSuccess();
+    }
+});
+
+document.addEventListener('click', e => {
+    if (e.target.id === 'mission-skip' && mission.active) {
+        missionSuccess();
+    }
+});

@@ -41,6 +41,19 @@
             </div>
             <div id="map"></div>
         </div>
+        <div id="mission-panel" style="display:none;position:fixed;top:70px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,#667eea,#764ba2);border-radius:12px;padding:16px;z-index:1002;box-shadow:0 4px 20px rgba(0,0,0,0.3);color:white;width:280px;">
+            <div class="mission-header" style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
+                <span style="font-size:20px;">🎯</span>
+                <span style="font-size:14px;font-weight:600;">미션 <span id="mission-current">1</span>/4</span>
+            </div>
+            <div id="mission-text" style="font-size:16px;font-weight:600;text-align:center;margin-bottom:8px;"></div>
+            <div id="mission-instruction" style="font-size:24px;text-align:center;margin:10px 0;"></div>
+            <div style="background:rgba(255,255,255,0.2);border-radius:8px;height:6px;margin-top:10px;">
+                <div class="progress-bar" id="mission-progress" style="height:100%;background:#4ade80;border-radius:8px;transition:width 0.3s;"></div>
+            </div>
+            <div id="mission-status" style="text-align:center;font-size:12px;margin-top:6px;opacity:0.9;">미션을 수행해주세요!</div>
+            <button id="mission-skip" style="margin-top:8px;width:100%;background:rgba(255,255,255,0.3);border:1px solid rgba(255,255,255,0.5);color:white;padding:6px;border-radius:6px;cursor:pointer;font-size:12px;">▶ 데스크톱: 스킵 (Enter)</button>
+        </div>
     </div>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
@@ -267,6 +280,77 @@
         closePanel();
         location.reload();
     }
+
+    // === 미션 시스템 (combined.html 내장) ===
+    const MISSIONS = [
+        {id:1,text:'🟢 초록불이 켜졌어요!',instruction:'📱 흔들어줘',type:'shake'},
+        {id:2,text:'👀 좌우를 살펴봐!',instruction:'📱 흔들어줘',type:'shake'},
+        {id:3,text:'👁️ 좌우 회전하며 살피기',instruction:'🔄 회전해줘',type:'rotate'},
+        {id:4,text:'✅ 다 건넜어!',instruction:'📱 흔들어줘',type:'shake'}
+    ];
+    let ms = {active:false,idx:0,detecting:false};
+    let lastG=0;
+
+    window.startMission=function(){
+        if(ms.active)return;
+        if(typeof DeviceMotionEvent!=='undefined'&&typeof DeviceMotionEvent.requestPermission==='function'){
+            DeviceMotionEvent.requestPermission().catch(()=>{});
+        }
+        ms.active=true;ms.idx=0;ms.detecting=true;
+        const p=document.getElementById('mission-panel');
+        if(p)p.style.display='block';
+        updateMsUI();
+        window.addEventListener('devicemotion',msShake);
+        window.addEventListener('deviceorientation',msRotate);
+    };
+    function updateMsUI(){
+        if(!ms.active)return;
+        const m=MISSIONS[ms.idx];
+        if(!m){completeMs();return;}
+        document.getElementById('mission-current').textContent=m.id;
+        document.getElementById('mission-text').textContent=m.text;
+        document.getElementById('mission-instruction').textContent=m.instruction;
+        document.getElementById('mission-progress').style.width=((ms.idx+1)/MISSIONS.length*100)+'%';
+        document.getElementById('mission-status').textContent='미션을 수행해주세요!';
+    }
+    function completeMs(){
+        ms.active=false;ms.detecting=false;
+        const p=document.getElementById('mission-panel');
+        if(p)p.style.display='none';
+        window.removeEventListener('devicemotion',msShake);
+        window.removeEventListener('deviceorientation',msRotate);
+        if('vibrate'in navigator)navigator.vibrate([500,200,500]);
+    }
+    function msNext(){
+        ms.idx++;
+        if(ms.idx>=MISSIONS.length){completeMs();return;}
+        const s=document.getElementById('mission-status');
+        if(s)s.textContent='잘했어요! 🎉';
+        setTimeout(updateMsUI,1500);
+    }
+    function msShake(e){
+        if(!ms.active||!ms.detecting)return;
+        const m=MISSIONS[ms.idx];
+        if(!m||m.type!=='shake')return;
+        let ax=e.acceleration?.x;
+        if(ax===null||ax===undefined)ax=e.accelerationIncludingGravity?.x||0;
+        if(Math.abs(ax)>15)msNext();
+    }
+    function msRotate(e){
+        if(!ms.active||!ms.detecting)return;
+        const m=MISSIONS[ms.idx];
+        if(!m||m.type!=='rotate')return;
+        const g=e.gamma||0;
+        if(lastG!==0&&Math.abs(g-lastG)>20)msNext();
+        lastG=g;
+    }
+    document.addEventListener('keydown',function(e){
+        if(!ms.active)return;
+        if(e.key==='Enter'||e.key===' '){msNext();}
+    });
+    document.getElementById('mission-skip').addEventListener('click',function(){
+        if(ms.active)msNext();
+    });
     </script>
 </body>
 </html>
