@@ -72,7 +72,7 @@ export function createUserMarker() {
         iconAnchor: [12, 12]
     });
     
-    window.userMarker = L.marker([loc.lat, loc.lng], { icon, draggable: true, zIndexOffset: -1000 }).addTo(window.map);
+    window.userMarker = L.marker([loc.lat, loc.lng], { icon, draggable: true, zIndexOffset: 10000 }).addTo(window.map);
     
     window.userMarker.on('dragend', e => {
         const pos = e.target.getLatLng();

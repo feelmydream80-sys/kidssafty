@@ -21,7 +21,7 @@ export function addZoneMarker(zone, type = 'danger') {
         iconAnchor: type === 'crosswalk' ? [10, 10] : [11, 11]
     });
     
-    const marker = L.marker([zone.lat, zone.lng], { icon, zIndexOffset: 1000 }).addTo(window.map);
+    const marker = L.marker([zone.lat, zone.lng], { icon }).addTo(window.map);
     marker.zoneData = zone;
     
     const displayLocation = cleanLocation(zone.location);
