@@ -1,0 +1,1230 @@
+{
+  "meta": {
+    "region": "동작구",
+    "source": "서울특별시 동작구_어린이보호구역_20200206.csv",
+    "total": 61,
+    "generated_at": "2026-05-13"
+  },
+  "items": [
+    {
+      "id": "PZ-신상도초등학교",
+      "name": "신상도초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 장승배기로 14",
+      "road_address": "서울특별시 동작구 장승배기로 14",
+      "jibun_address": "서울특별시 동작구 상도2동 산65",
+      "lat": 37.50034631,
+      "lng": 126.9446175,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 4,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-강남초등학교",
+      "name": "강남초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 강남초등길 15",
+      "road_address": "서울특별시 동작구 강남초등길 15",
+      "jibun_address": "서울특별시 동작구 상도1동 501",
+      "lat": 37.50615977,
+      "lng": 126.953358,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 5,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-남사초등학교",
+      "name": "남사초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 동작대로13길 22",
+      "road_address": "서울특별시 동작구 동작대로13길 22",
+      "jibun_address": "서울특별시 동작구 사당1동 1011-1",
+      "lat": 37.4819443,
+      "lng": 126.9782332,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 2,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-남성초등학교",
+      "name": "남성초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 사당로23길 57-14",
+      "road_address": "서울특별시 동작구 사당로23길 57-14",
+      "jibun_address": "서울특별시 동작구 사당3동 산24",
+      "lat": 37.48459633,
+      "lng": 126.9754872,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 3,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-노량진초등학교",
+      "name": "노량진초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 장승배기로 160",
+      "road_address": "서울특별시 동작구 장승배기로 160",
+      "jibun_address": "서울특별시 동작구 노량진1동 238",
+      "lat": 37.51175119,
+      "lng": 126.9408222,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 4,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-대림초등학교",
+      "name": "대림초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 대방동1길 22",
+      "road_address": "서울특별시 동작구 대방동1길 22",
+      "jibun_address": "서울특별시 동작구 대방동391-62",
+      "lat": 37.50061292,
+      "lng": 126.9248853,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-동작초등학교",
+      "name": "동작초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 동작대로29길 214",
+      "road_address": "서울특별시 동작구 동작대로29길 214",
+      "jibun_address": "서울특별시 동작구 동작동 산9-1",
+      "lat": 37.49411478,
+      "lng": 126.9765109,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 3,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-문창초등학교",
+      "name": "문창초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 신대방2길 14",
+      "road_address": "서울특별시 동작구 신대방2길 14",
+      "jibun_address": "서울특별시 동작구 신대방1동 640",
+      "lat": 37.48898312,
+      "lng": 126.9148425,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 2,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-보라매초등학교",
+      "name": "보라매초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 여의대방로16길 30",
+      "road_address": "서울특별시 동작구 여의대방로16길 30",
+      "jibun_address": "서울특별시 동작구 신대방1동 485-1",
+      "lat": 37.49585333,
+      "lng": 126.9161464,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 2,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-본동초등학교",
+      "name": "본동초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 노량진로26길 16-40",
+      "road_address": "서울특별시 동작구 노량진로26길 16-40",
+      "jibun_address": "서울특별시 동작구 본동 133",
+      "lat": 37.50992616,
+      "lng": 126.9538533,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 2,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-삼일초등학교",
+      "name": "삼일초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 사당로23나길 27",
+      "road_address": "서울특별시 동작구 사당로23나길 27",
+      "jibun_address": "서울특별시 동작구 사당3동 산18-34",
+      "lat": 37.4882193,
+      "lng": 126.975172,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 2,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-상도초등학교",
+      "name": "상도초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 성대로21길 62",
+      "road_address": "서울특별시 동작구 성대로21길 62",
+      "jibun_address": "서울특별시 동작구 상도4동 238-2",
+      "lat": 37.50034624,
+      "lng": 126.9372712,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 3,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-신길초등학교",
+      "name": "신길초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 알마타길 16",
+      "road_address": "서울특별시 동작구 알마타길 16",
+      "jibun_address": "서울특별시 동작구 대방동 산28",
+      "lat": 37.51007796,
+      "lng": 126.9262919,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 5,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-신남성초등학교",
+      "name": "신남성초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 사당로 146",
+      "road_address": "서울특별시 동작구 사당로 146",
+      "jibun_address": "서울특별시 동작구 사당5동 418-1",
+      "lat": 37.48815083,
+      "lng": 126.9648709,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 3,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-영본초등학교",
+      "name": "영본초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 만양로12가길 69",
+      "road_address": "서울특별시 동작구 만양로12가길 69",
+      "jibun_address": "서울특별시 동작구 본동 441-11",
+      "lat": 37.51129715,
+      "lng": 126.9486722,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 3,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-영화초등학교",
+      "name": "영화초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 등용로8길 3",
+      "road_address": "서울특별시 동작구 등용로8길 3",
+      "jibun_address": "서울특별시 동작구 대방동 44-3",
+      "lat": 37.50890703,
+      "lng": 126.9329751,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 2,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-은로초등학교",
+      "name": "은로초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 서달로 115",
+      "road_address": "서울특별시 동작구 서달로 115",
+      "jibun_address": "서울특별시 동작구 흑석1동 245",
+      "lat": 37.5031946,
+      "lng": 126.9600008,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 2,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-중대부속초등학교",
+      "name": "중대부속초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 서달로 135",
+      "road_address": "서울특별시 동작구 서달로 135",
+      "jibun_address": "서울특별시 동작구 흑석1동 233",
+      "lat": 37.5054521,
+      "lng": 126.9596784,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 3,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-행림초등학교",
+      "name": "행림초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 솔밭로 61-6",
+      "road_address": "서울특별시 동작구 솔밭로 61-6",
+      "jibun_address": "서울특별시 동작구 사당5동 236-4",
+      "lat": 37.48221173,
+      "lng": 126.9660323,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 2,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-흑석초등학교",
+      "name": "흑석초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 현충로 87",
+      "road_address": "서울특별시 동작구 현충로 87",
+      "jibun_address": "서울특별시 동작구 흑석동 7-1",
+      "lat": 37.5082938,
+      "lng": 126.9651329,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 6,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-상현초등학교",
+      "name": "상현초등학교",
+      "category": "protection_zone",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 상도로58길 21",
+      "road_address": "서울특별시 동작구 상도로58길 21",
+      "jibun_address": "서울특별시 동작구 상도동 134-600",
+      "lat": 37.49487529,
+      "lng": 126.9526684,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "초등학교",
+        "cctv_yn": "Y",
+        "cctv_count": 2,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-동그라미유치원",
+      "name": "동그라미유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 사당로28길 34",
+      "road_address": "서울특별시 동작구 사당로28길 34",
+      "jibun_address": "서울특별시 동작구 상도4동 212-128",
+      "lat": 37.4816149,
+      "lng": 126.9793688,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-동아유치원",
+      "name": "동아유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 만양로3길 48",
+      "road_address": "서울특별시 동작구 만양로3길 48",
+      "jibun_address": "서울특별시 동작구 노량진동 325-1",
+      "lat": 37.50835746,
+      "lng": 126.9433211,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-명수유치원",
+      "name": "명수유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 흑석로13길 3",
+      "road_address": "서울특별시 동작구 흑석로13길 3",
+      "jibun_address": "서울특별시 동작구 흑석동 186",
+      "lat": 37.50937692,
+      "lng": 126.9597893,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-벧엘유치원",
+      "name": "벧엘유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 장승배기로20길 46-3",
+      "road_address": "서울특별시 동작구 장승배기로20길 46-3",
+      "jibun_address": "서울특별시 동작구 노량진1동 225-57",
+      "lat": 37.50934081,
+      "lng": 126.9422402,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 3,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-사랑유치원",
+      "name": "사랑유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 여의대방로24나길 6",
+      "road_address": "서울특별시 동작구 여의대방로24나길 6",
+      "jibun_address": "서울특별시 동작구 대방동 414-3",
+      "lat": 37.49840123,
+      "lng": 126.9211621,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-상아유치원",
+      "name": "상아유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 양녕로26길 15",
+      "road_address": "서울특별시 동작구 양녕로26길 15",
+      "jibun_address": "서울특별시 동작구 상도4동 211-1",
+      "lat": 37.4975519,
+      "lng": 126.9446241,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-승혜유치원",
+      "name": "승혜유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 성대로21길 15",
+      "road_address": "서울특별시 동작구 성대로21길 15",
+      "jibun_address": "서울특별시 동작구 상도4동 244-337",
+      "lat": 37.4986394,
+      "lng": 126.9370792,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-은혜유치원",
+      "name": "은혜유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 성대로6가길 29",
+      "road_address": "서울특별시 동작구 성대로6가길 29",
+      "jibun_address": "서울특별시 동작구 상도3동 256-175",
+      "lat": 37.4977312,
+      "lng": 126.9332022,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-양문유치원",
+      "name": "양문유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 시흥대로 644-1",
+      "road_address": "서울특별시 동작구 시흥대로 644-1",
+      "jibun_address": "서울특별시 동작구 신대방1동 607-32",
+      "lat": 37.4891543,
+      "lng": 126.9073747,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-열림유치원",
+      "name": "열림유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 여의대방로44길 49",
+      "road_address": "서울특별시 동작구 여의대방로44길 49",
+      "jibun_address": "서울특별시 동작구 대방동 503-1",
+      "lat": 37.5089258,
+      "lng": 126.929207,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-요요유치원",
+      "name": "요요유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 여의대방로 28",
+      "road_address": "서울특별시 동작구 여의대방로 28",
+      "jibun_address": "서울특별시 동작구 신대방1동 707",
+      "lat": 37.49527344,
+      "lng": 126.9116916,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-중대부속유치원",
+      "name": "중대부속유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 흑석로 47",
+      "road_address": "서울특별시 동작구 흑석로 47",
+      "jibun_address": "서울특별시 동작구 흑석1동 211-32",
+      "lat": 37.5064905,
+      "lng": 126.9555972,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-강남유치원",
+      "name": "강남유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 상도로41가길 13",
+      "road_address": "서울특별시 동작구 상도로41가길 13",
+      "jibun_address": "서울특별시 동작구 상도1동 660-2",
+      "lat": 37.50349488,
+      "lng": 126.9496786,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-상도유치원",
+      "name": "상도유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 상도로47길 51",
+      "road_address": "서울특별시 동작구 상도로47길 51",
+      "jibun_address": "서울특별시 동작구 상도1동 415",
+      "lat": 37.50144862,
+      "lng": 126.9516555,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-성모유치원",
+      "name": "성모유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 장승배기로5길 16",
+      "road_address": "서울특별시 동작구 장승배기로5길 16",
+      "jibun_address": "서울특별시 동작구 상도2동 204-89",
+      "lat": 37.50158742,
+      "lng": 126.9399433,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-행복유치원",
+      "name": "행복유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 양녕로23길 25",
+      "road_address": "서울특별시 동작구 양녕로23길 25",
+      "jibun_address": "서울특별시 동작구 상도동 산 65-225",
+      "lat": 37.4956159,
+      "lng": 126.941139,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-신남성초교병설유치원",
+      "name": "신남성초교 병설유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 사당로 146",
+      "road_address": "서울특별시 동작구 사당로 146",
+      "jibun_address": "서울특별시 동작구 사당5동 418-1",
+      "lat": 37.48815083,
+      "lng": 126.9648709,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-은로초등학교병설유치원",
+      "name": "은로초등학교 병설유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 서달로 115",
+      "road_address": "서울특별시 동작구 서달로 115",
+      "jibun_address": "서울특별시 동작구 흑석1동 245",
+      "lat": 37.5031946,
+      "lng": 126.9600008,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-샛별유치원",
+      "name": "샛별유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 상도로50길 36-1",
+      "road_address": "서울특별시 동작구 상도로50길 36-1",
+      "jibun_address": "서울특별시 동작구 상도동 134-160",
+      "lat": 37.49804586,
+      "lng": 126.9502826,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-하랑숲유치원",
+      "name": "하랑숲유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 동작대로41길 7",
+      "road_address": "서울특별시 동작구 동작대로41길 7",
+      "jibun_address": "서울특별시 동작구 동작동 102-60",
+      "lat": 37.4960102,
+      "lng": 126.9817887,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-시현유치원",
+      "name": "시현유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 만양로8길 50",
+      "road_address": "서울특별시 동작구 만양로8길 50",
+      "jibun_address": "서울특별시 동작구 노량진동 323",
+      "lat": 37.51030525,
+      "lng": 126.9468677,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-아롱다롱어린이집",
+      "name": "아롱다롱어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 사당로30길 90",
+      "road_address": "서울특별시 동작구 사당로30길 90",
+      "jibun_address": "서울특별시 동작구 사당1동 1020-40",
+      "lat": 37.48080945,
+      "lng": 126.9806795,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-양지어린이집",
+      "name": "양지어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 사당로23길 137",
+      "road_address": "서울특별시 동작구 사당로23길 137",
+      "jibun_address": "서울특별시 동작구 사당동 169-8",
+      "lat": 37.48858884,
+      "lng": 126.9720666,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-연꽃어린이집",
+      "name": "연꽃어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 국사봉1길 235-1",
+      "road_address": "서울특별시 동작구 국사봉1길 235-1",
+      "jibun_address": "서울특별시 동작구 상도3동 산77-1",
+      "lat": 37.49326005,
+      "lng": 126.9360196,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-예담어린이집",
+      "name": "예담어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 매봉로 43",
+      "road_address": "서울특별시 동작구 매봉로 43",
+      "jibun_address": "서울특별시 동작구 상도동 511",
+      "lat": 37.5069456,
+      "lng": 126.9512421,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-은하어린이집",
+      "name": "은하어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 여의대방로24길 113",
+      "road_address": "서울특별시 동작구 여의대방로24길 113",
+      "jibun_address": "서울특별시 동작구 대방동 407-40",
+      "lat": 37.49930557,
+      "lng": 126.9263253,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-꿈나무어린이집",
+      "name": "꿈나무어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 여의대방로36길 11",
+      "road_address": "서울특별시 동작구 여의대방로36길 11",
+      "jibun_address": "서울특별시 동작구 대방동 386-2",
+      "lat": 37.50461575,
+      "lng": 126.9229536,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-우리어린이집",
+      "name": "우리어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 솔밭로74-1",
+      "road_address": "서울특별시 동작구 솔밭로74-1",
+      "jibun_address": "서울특별시 동작구 사당5동 235-61",
+      "lat": 37.48301937,
+      "lng": 126.9672688,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-참사랑어린이집",
+      "name": "참사랑어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 동작대로17길 37",
+      "road_address": "서울특별시 동작구 동작대로17길 37",
+      "jibun_address": "서울특별시 동작구 사당1동 1012-23",
+      "lat": 37.48280553,
+      "lng": 126.9775139,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-상도어린이집",
+      "name": "상도어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 양녕로36길 15",
+      "road_address": "서울특별시 동작구 양녕로36길 15",
+      "jibun_address": "서울특별시 동작구 상도1동 159-403",
+      "lat": 37.5024623,
+      "lng": 126.9464077,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-다문화어린이집",
+      "name": "다문화어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 동작대로17길 28",
+      "road_address": "서울특별시 동작구 동작대로17길 28",
+      "jibun_address": "서울특별시 동작구 사당1동 1011-1",
+      "lat": 37.4830324,
+      "lng": 126.9787548,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-노벨어린이집",
+      "name": "노벨어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 양녕로 26길 27",
+      "road_address": "서울특별시 동작구 양녕로 26길 27",
+      "jibun_address": "서울특별시 동작구 상도4동 211-1",
+      "lat": 37.49739084,
+      "lng": 126.9442578,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-무지개어린이집",
+      "name": "무지개어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 성대로6가길 29",
+      "road_address": "서울특별시 동작구 성대로6가길 29",
+      "jibun_address": "서울특별시 동작구 상도3동 256-175",
+      "lat": 37.4977312,
+      "lng": 126.9332022,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-영재어린이집",
+      "name": "영재어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 여의대방로36길 105",
+      "road_address": "서울특별시 동작구 여의대방로36길 105",
+      "jibun_address": "서울특별시 동작구 대방동 44-3",
+      "lat": 37.50885234,
+      "lng": 126.9318509,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-문화어린이집",
+      "name": "문화어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 사당로13길 24",
+      "road_address": "서울특별시 동작구 사당로13길 24",
+      "jibun_address": "서울특별시 동작구 사당동 1131-4",
+      "lat": 37.4851433,
+      "lng": 126.9724116,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-큰별어린이집",
+      "name": "큰별어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 흑석한강로 28",
+      "road_address": "서울특별시 동작구 흑석한강로 28",
+      "jibun_address": "서울특별시 동작구 흑석동 336-1",
+      "lat": 37.50463572,
+      "lng": 126.965112,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-성대어린이집",
+      "name": "성대어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 성대로10길 27",
+      "road_address": "서울특별시 동작구 성대로10길 27",
+      "jibun_address": "서울특별시 동작구 상도동 271",
+      "lat": 37.49682045,
+      "lng": 126.935311,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-삼성특수학교",
+      "name": "삼성특수학교",
+      "category": "protection_zone",
+      "subcategory": "특수학교",
+      "address": "서울특별시 동작구 양녕로30길 19-4",
+      "road_address": "서울특별시 동작구 양녕로30길 19-4",
+      "jibun_address": "서울특별시 동작구 상도4동 212-128",
+      "lat": 37.49895587,
+      "lng": 126.946161,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "특수학교",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-행복한숲유치원",
+      "name": "행복한숲유치원",
+      "category": "protection_zone",
+      "subcategory": "유치원",
+      "address": "서울특별시 동작구 만양로26",
+      "road_address": "서울특별시 동작구 만양로26",
+      "jibun_address": "서울특별시 동작구 상도동414",
+      "lat": 37.50763224,
+      "lng": 126.9495433,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "유치원",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    },
+    {
+      "id": "PZ-사당4동어린이집",
+      "name": "사당4동어린이집",
+      "category": "protection_zone",
+      "subcategory": "어린이집",
+      "address": "서울특별시 동작구 사당로22나길 70",
+      "road_address": "서울특별시 동작구 사당로22나길 70",
+      "jibun_address": "서울특별시 동작구 사당동316-56",
+      "lat": 37.480666,
+      "lng": 126.973077,
+      "source": "어린이보호구역",
+      "properties": {
+        "facility_type": "어린이집",
+        "cctv_yn": "Y",
+        "cctv_count": 1,
+        "speed_limit": "",
+        "management": "서울특별시 동작구청",
+        "data_date": "2020-02-06"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1850 @@
+{
+  "meta": {
+    "region": "동작구",
+    "source": "학교별위치정보_202412270000001.csv",
+    "total": 115,
+    "generated_at": "2026-05-13"
+  },
+  "items": [
+    {
+      "id": "SCH-B100006220",
+      "name": "하랑숲유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 동작대로41길 7",
+      "road_address": "서울특별시 동작구 동작대로41길 7",
+      "detail_address": "(동작동)",
+      "lat": 37.4960177,
+      "lng": 126.9818135,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100006220",
+        "postal_code": "15608"
+      }
+    },
+    {
+      "id": "SCH-B100006332",
+      "name": "행복한숲유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 만양로 26",
+      "road_address": "서울특별시 동작구 만양로 26",
+      "detail_address": "(상도동, 건영아파트)",
+      "lat": 37.5071676,
+      "lng": 126.9497743,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100006332",
+        "postal_code": "06918"
+      }
+    },
+    {
+      "id": "SCH-B100001637",
+      "name": "상아유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 양녕로26길 15",
+      "road_address": "서울특별시 동작구 양녕로26길 15",
+      "detail_address": "(상도동,약수맨션아파트)",
+      "lat": 37.4984871,
+      "lng": 126.9443163,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001637",
+        "postal_code": "07036"
+      }
+    },
+    {
+      "id": "SCH-B100002503",
+      "name": "수도여자고등학교부설방송통신고등학교",
+      "category": "school",
+      "subcategory": "고등학교",
+      "address": "서울특별시 동작구 여의대방로10길 73",
+      "road_address": "서울특별시 동작구 여의대방로10길 73",
+      "detail_address": "(신대방동, 수도여자고등학교)",
+      "lat": 37.493049,
+      "lng": 126.9155624,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100002503",
+        "postal_code": "07062"
+      }
+    },
+    {
+      "id": "SCH-B100002352",
+      "name": "숭의여자중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 여의대방로36길 79",
+      "road_address": "서울특별시 동작구 여의대방로36길 79",
+      "detail_address": "(대방동)",
+      "lat": 37.5074896,
+      "lng": 126.9290766,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100002352",
+        "postal_code": "06944"
+      }
+    },
+    {
+      "id": "SCH-B100000378",
+      "name": "경문고등학교",
+      "category": "school",
+      "subcategory": "고등학교",
+      "address": "서울특별시 동작구 동작대로 171",
+      "road_address": "서울특별시 동작구 동작대로 171",
+      "detail_address": ", 경문고등학교 (동작동)",
+      "lat": 37.4930843,
+      "lng": 126.9817084,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100000378",
+        "postal_code": "06995"
+      }
+    },
+    {
+      "id": "SCH-B100001583",
+      "name": "서울남사초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 동작대로13길 22",
+      "road_address": "서울특별시 동작구 동작대로13길 22",
+      "detail_address": "(사당동)",
+      "lat": 37.4823432,
+      "lng": 126.9788623,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001583",
+        "postal_code": "07014"
+      }
+    },
+    {
+      "id": "SCH-B100001588",
+      "name": "서울동작초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 동작대로29길 214",
+      "road_address": "서울특별시 동작구 동작대로29길 214",
+      "detail_address": ", 서울동작초등학교 (사당동)",
+      "lat": 37.4940445,
+      "lng": 126.9770106,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001588",
+        "postal_code": "06992"
+      }
+    },
+    {
+      "id": "SCH-B100001675",
+      "name": "예림유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 현충로 151",
+      "road_address": "서울특별시 동작구 현충로 151",
+      "detail_address": "(흑석동)",
+      "lat": 37.5069023,
+      "lng": 126.969582,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001675",
+        "postal_code": "06904"
+      }
+    },
+    {
+      "id": "SCH-B100001600",
+      "name": "서울신상도초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 장승배기로 14",
+      "road_address": "서울특별시 동작구 장승배기로 14",
+      "detail_address": "(상도동,서울신상도초등학교)",
+      "lat": 37.499913,
+      "lng": 126.943221,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001600",
+        "postal_code": "06967"
+      }
+    },
+    {
+      "id": "SCH-B100001612",
+      "name": "서울흑석초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 현충로 87",
+      "road_address": "서울특별시 동작구 현충로 87",
+      "detail_address": ", 서울흑석초등학교 (흑석동)",
+      "lat": 37.5086077,
+      "lng": 126.9651514,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001612",
+        "postal_code": "06904"
+      }
+    },
+    {
+      "id": "SCH-B100001627",
+      "name": "동아유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 만양로3길 48",
+      "road_address": "서울특별시 동작구 만양로3길 48",
+      "detail_address": "(노량진동, 유치원)",
+      "lat": 37.5082504,
+      "lng": 126.9433247,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001627",
+        "postal_code": "06926"
+      }
+    },
+    {
+      "id": "SCH-B100001657",
+      "name": "송림유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 사당로2다길 95",
+      "road_address": "서울특별시 동작구 사당로2다길 95",
+      "detail_address": "(사당동) 송림유치원",
+      "lat": 37.4890555,
+      "lng": 126.9634623,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001657",
+        "postal_code": "07029"
+      }
+    },
+    {
+      "id": "SCH-B100001553",
+      "name": "남성중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 남부순환로269길 166",
+      "road_address": "서울특별시 동작구 남부순환로269길 166",
+      "detail_address": "(사당동,남성중학교)",
+      "lat": 37.4788335,
+      "lng": 126.9723805,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001553",
+        "postal_code": "07022"
+      }
+    },
+    {
+      "id": "SCH-B100001555",
+      "name": "대방중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 여의대방로10길 24",
+      "road_address": "서울특별시 동작구 여의대방로10길 24",
+      "detail_address": "(신대방동, 대방중학교)",
+      "lat": 37.4951537,
+      "lng": 126.9137646,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001555",
+        "postal_code": "07064"
+      }
+    },
+    {
+      "id": "SCH-B100001672",
+      "name": "열림유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 여의대방로44길 49",
+      "road_address": "서울특별시 동작구 여의대방로44길 49",
+      "detail_address": "(대방동)",
+      "lat": 37.5089594,
+      "lng": 126.9292272,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001672",
+        "postal_code": "06942"
+      }
+    },
+    {
+      "id": "SCH-B100001684",
+      "name": "정현유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 신대방2동",
+      "road_address": "",
+      "detail_address": "",
+      "lat": 37.4947412,
+      "lng": 126.9225483,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001684",
+        "postal_code": "}"
+      }
+    },
+    {
+      "id": "SCH-B100001688",
+      "name": "총신대부속유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 사당로 143",
+      "road_address": "서울특별시 동작구 사당로 143",
+      "detail_address": "(사당동, 대한예수교장로회총회신학원)",
+      "lat": 37.4891828,
+      "lng": 126.9666401,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001688",
+        "postal_code": "06988"
+      }
+    },
+    {
+      "id": "SCH-B100001607",
+      "name": "서울은로초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 서달로 115",
+      "road_address": "서울특별시 동작구 서달로 115",
+      "detail_address": ", 서울은로초등학교 (흑석동)",
+      "lat": 37.50336,
+      "lng": 126.9600697,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001607",
+        "postal_code": "06973"
+      }
+    },
+    {
+      "id": "SCH-B100001622",
+      "name": "노들유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 본동",
+      "road_address": "",
+      "detail_address": "",
+      "lat": 37.5124484,
+      "lng": 126.9536572,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001622",
+        "postal_code": "}"
+      }
+    },
+    {
+      "id": "SCH-B100001623",
+      "name": "노량진교회유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 노량진로30길 9",
+      "road_address": "서울특별시 동작구 노량진로30길 9",
+      "detail_address": "(본동, 노량진교회)",
+      "lat": 37.5121163,
+      "lng": 126.9559886,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001623",
+        "postal_code": "06908"
+      }
+    },
+    {
+      "id": "SCH-B100001558",
+      "name": "문창중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 여의대방로22나길 40",
+      "road_address": "서울특별시 동작구 여의대방로22나길 40",
+      "detail_address": "(신대방동)",
+      "lat": 37.4958027,
+      "lng": 126.9217952,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001558",
+        "postal_code": "07057"
+      }
+    },
+    {
+      "id": "SCH-B100000588",
+      "name": "서울공업고등학교",
+      "category": "school",
+      "subcategory": "고등학교",
+      "address": "서울특별시 동작구 대방동1길 46",
+      "road_address": "서울특별시 동작구 대방동1길 46",
+      "detail_address": ", 서울공업고등학교 (대방동)",
+      "lat": 37.5013784,
+      "lng": 126.9226274,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100000588",
+        "postal_code": "06955"
+      }
+    },
+    {
+      "id": "SCH-B100000676",
+      "name": "서울삼성학교",
+      "category": "other",
+      "subcategory": "기타",
+      "address": "서울특별시 동작구 양녕로30길 19-4",
+      "road_address": "서울특별시 동작구 양녕로30길 19-4",
+      "detail_address": "(상도동, 서울삼성학교)",
+      "lat": 37.4991197,
+      "lng": 126.9459305,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100000676",
+        "postal_code": "07035"
+      }
+    },
+    {
+      "id": "SCH-B100001613",
+      "name": "중앙대학교사범대학부속초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 서달로 135",
+      "road_address": "서울특별시 동작구 서달로 135",
+      "detail_address": "(흑석동, 중앙대부속초등학교)",
+      "lat": 37.50544,
+      "lng": 126.9599814,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001613",
+        "postal_code": "06973"
+      }
+    },
+    {
+      "id": "SCH-B100001636",
+      "name": "상도제일유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 상도5동",
+      "road_address": "",
+      "detail_address": "",
+      "lat": 37.4991471,
+      "lng": 126.9535815,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001636",
+        "postal_code": "}"
+      }
+    },
+    {
+      "id": "SCH-B100001644",
+      "name": "서울신남성초등학교병설유치원",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 사당로 146",
+      "road_address": "서울특별시 동작구 사당로 146",
+      "detail_address": "(사당동)",
+      "lat": 37.4885464,
+      "lng": 126.9652863,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001644",
+        "postal_code": "07030"
+      }
+    },
+    {
+      "id": "SCH-B100001556",
+      "name": "동양중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 흑석로9길 94",
+      "road_address": "서울특별시 동작구 흑석로9길 94",
+      "detail_address": ", 동양중학교 (흑석동)",
+      "lat": 37.5098245,
+      "lng": 126.9573429,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001556",
+        "postal_code": "06910"
+      }
+    },
+    {
+      "id": "SCH-B100000468",
+      "name": "성남고등학교",
+      "category": "school",
+      "subcategory": "고등학교",
+      "address": "서울특별시 동작구 대방동길 74",
+      "road_address": "서울특별시 동작구 대방동길 74",
+      "detail_address": ", 성남고등학교 (대방동)",
+      "lat": 37.5046878,
+      "lng": 126.9269648,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100000468",
+        "postal_code": "06946"
+      }
+    },
+    {
+      "id": "SCH-B100001668",
+      "name": "엘림숲유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 성대로6길 29",
+      "road_address": "서울특별시 동작구 성대로6길 29",
+      "detail_address": "(상도동)",
+      "lat": 37.4984229,
+      "lng": 126.9315728,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001668",
+        "postal_code": "07043"
+      }
+    },
+    {
+      "id": "SCH-B100001573",
+      "name": "장승중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 장승배기로10가길 25",
+      "road_address": "서울특별시 동작구 장승배기로10가길 25",
+      "detail_address": ", 장승중학교 (상도동)",
+      "lat": 37.5033456,
+      "lng": 126.9406567,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001573",
+        "postal_code": "06963"
+      }
+    },
+    {
+      "id": "SCH-B100000648",
+      "name": "학력인정 신동신중.정보산업고등학교",
+      "category": "school",
+      "subcategory": "고등학교",
+      "address": "서울특별시 동작구 동작대로33마길 27-1",
+      "road_address": "서울특별시 동작구 동작대로33마길 27-1",
+      "detail_address": "(사당동, 신동신중 정보산업 고등학교)",
+      "lat": 37.4907266,
+      "lng": 126.9778705,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100000648",
+        "postal_code": "06998"
+      }
+    },
+    {
+      "id": "SCH-B100001584",
+      "name": "서울남성초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 사당로23길 57-14",
+      "road_address": "서울특별시 동작구 사당로23길 57-14",
+      "detail_address": "(사당동, 서울남성초등학교)",
+      "lat": 37.4845922,
+      "lng": 126.9757041,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001584",
+        "postal_code": "07005"
+      }
+    },
+    {
+      "id": "SCH-B100001626",
+      "name": "메이플유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 여의대방로 22",
+      "road_address": "서울특별시 동작구 여의대방로 22",
+      "detail_address": "(신대방동)",
+      "lat": 37.4922665,
+      "lng": 126.9116072,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001626",
+        "postal_code": "07065"
+      }
+    },
+    {
+      "id": "SCH-B100001631",
+      "name": "무지개유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 상도로 407",
+      "road_address": "서울특별시 동작구 상도로 407",
+      "detail_address": "(상도동,상도동 삼호아파트)",
+      "lat": 37.4935291,
+      "lng": 126.9574313,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001631",
+        "postal_code": "07026"
+      }
+    },
+    {
+      "id": "SCH-B100001545",
+      "name": "강남중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 대방동15길 29",
+      "road_address": "서울특별시 동작구 대방동15길 29",
+      "detail_address": "(대방동, 강남중학교)",
+      "lat": 37.5025027,
+      "lng": 126.9224335,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001545",
+        "postal_code": "06955"
+      }
+    },
+    {
+      "id": "SCH-B100001670",
+      "name": "양문유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 시흥대로 644-1",
+      "road_address": "서울특별시 동작구 시흥대로 644-1",
+      "detail_address": "(신대방동, 양문교회)",
+      "lat": 37.4892091,
+      "lng": 126.907342,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001670",
+        "postal_code": "07069"
+      }
+    },
+    {
+      "id": "SCH-B100004774",
+      "name": "상도여자중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울 동작구 상도5동",
+      "road_address": "",
+      "detail_address": "",
+      "lat": 37.4991471,
+      "lng": 126.9535815,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100004774",
+        "postal_code": "}"
+      }
+    },
+    {
+      "id": "SCH-B100001614",
+      "name": "강남유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 상도로41가길 13",
+      "road_address": "서울특별시 동작구 상도로41가길 13",
+      "detail_address": "(상도1동)",
+      "lat": 37.5035045,
+      "lng": 126.9496358,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001614",
+        "postal_code": "06968"
+      }
+    },
+    {
+      "id": "SCH-B100001621",
+      "name": "남현유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 상도1동",
+      "road_address": "",
+      "detail_address": "",
+      "lat": 37.5032626,
+      "lng": 126.9506566,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001621",
+        "postal_code": "}"
+      }
+    },
+    {
+      "id": "SCH-B100001624",
+      "name": "동그라미유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 사당로28길 34",
+      "road_address": "서울특별시 동작구 사당로28길 34",
+      "detail_address": "(사당동, 동그라미유치원)",
+      "lat": 37.481584,
+      "lng": 126.9793751,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001624",
+        "postal_code": "07014"
+      }
+    },
+    {
+      "id": "SCH-B100001634",
+      "name": "벧엘유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 장승배기로20길 46-3",
+      "road_address": "서울특별시 동작구 장승배기로20길 46-3",
+      "detail_address": "(노량진동) 벧엘유치원",
+      "lat": 37.5089846,
+      "lng": 126.9426059,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001634",
+        "postal_code": "06925"
+      }
+    },
+    {
+      "id": "SCH-B100001655",
+      "name": "소망유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 현충로 119",
+      "road_address": "서울특별시 동작구 현충로 119",
+      "detail_address": "(흑석동)",
+      "lat": 37.5078681,
+      "lng": 126.9669348,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001655",
+        "postal_code": "06904"
+      }
+    },
+    {
+      "id": "SCH-B100001557",
+      "name": "동작중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 동작대로39가길 83",
+      "road_address": "서울특별시 동작구 동작대로39가길 83",
+      "detail_address": "(동작동)",
+      "lat": 37.4950212,
+      "lng": 126.9772726,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001557",
+        "postal_code": "06992"
+      }
+    },
+    {
+      "id": "SCH-B100006494",
+      "name": "서울은로유치원",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 서달로 115",
+      "road_address": "서울특별시 동작구 서달로 115",
+      "detail_address": "(흑석동, 은로초등학교)",
+      "lat": 37.50336,
+      "lng": 126.9600697,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100006494",
+        "postal_code": "06973"
+      }
+    },
+    {
+      "id": "SCH-B100000482",
+      "name": "숭의여자고등학교",
+      "category": "school",
+      "subcategory": "고등학교",
+      "address": "서울특별시 동작구 여의대방로36길 79",
+      "road_address": "서울특별시 동작구 여의대방로36길 79",
+      "detail_address": ", 숭의여자고등학교 (대방동)",
+      "lat": 37.5074896,
+      "lng": 126.9290766,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100000482",
+        "postal_code": "06944"
+      }
+    },
+    {
+      "id": "SCH-B100000497",
+      "name": "영등포고등학교",
+      "category": "school",
+      "subcategory": "고등학교",
+      "address": "서울특별시 동작구 등용로8길 5",
+      "road_address": "서울특별시 동작구 등용로8길 5",
+      "detail_address": "(대방동,영등포고등학교)",
+      "lat": 37.5082263,
+      "lng": 126.9336415,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100000497",
+        "postal_code": "06933"
+      }
+    },
+    {
+      "id": "SCH-B100001597",
+      "name": "서울신남성초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 사당로 146",
+      "road_address": "서울특별시 동작구 사당로 146",
+      "detail_address": "(사당동)",
+      "lat": 37.4885464,
+      "lng": 126.9652863,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001597",
+        "postal_code": "07030"
+      }
+    },
+    {
+      "id": "SCH-B100001603",
+      "name": "서울영본초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 만양로12가길 69",
+      "road_address": "서울특별시 동작구 만양로12가길 69",
+      "detail_address": ", 서울영본초등학교 (본동)",
+      "lat": 37.5105459,
+      "lng": 126.9487309,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001603",
+        "postal_code": "06915"
+      }
+    },
+    {
+      "id": "SCH-B100001671",
+      "name": "에덴유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 상도4동",
+      "road_address": "",
+      "detail_address": "",
+      "lat": 37.4987343,
+      "lng": 126.9440592,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001671",
+        "postal_code": "}"
+      }
+    },
+    {
+      "id": "SCH-B100001673",
+      "name": "영화유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 알마타길 28",
+      "road_address": "서울특별시 동작구 알마타길 28",
+      "detail_address": "(대방동)",
+      "lat": 37.5109903,
+      "lng": 126.9280778,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001673",
+        "postal_code": "~"
+      }
+    },
+    {
+      "id": "SCH-B100001676",
+      "name": "요요유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 여의대방로 28",
+      "road_address": "서울특별시 동작구 여의대방로 28",
+      "detail_address": "(신대방동, 현대아파트)",
+      "lat": 37.494565,
+      "lng": 126.9122485,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001676",
+        "postal_code": "07064"
+      }
+    },
+    {
+      "id": "SCH-B100001690",
+      "name": "태성유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 여의대방로16길 1",
+      "road_address": "서울특별시 동작구 여의대방로16길 1",
+      "detail_address": "(신대방동, 태성대아파트)",
+      "lat": 37.495841,
+      "lng": 126.9172064,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001690",
+        "postal_code": "07062"
+      }
+    },
+    {
+      "id": "SCH-B100001692",
+      "name": "한가람유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 현충로14길 26",
+      "road_address": "서울특별시 동작구 현충로14길 26",
+      "detail_address": "(흑석동)",
+      "lat": 37.5051677,
+      "lng": 126.969059,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001692",
+        "postal_code": "06982"
+      }
+    },
+    {
+      "id": "SCH-B100005251",
+      "name": "서울보라매초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 여의대방로16길 30",
+      "road_address": "서울특별시 동작구 여의대방로16길 30",
+      "detail_address": ", 서울보라매초등학교 (신대방동)",
+      "lat": 37.4957207,
+      "lng": 126.9161111,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005251",
+        "postal_code": "07063"
+      }
+    },
+    {
+      "id": "SCH-B100005334",
+      "name": "사랑유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 여의대방로24나길 6",
+      "road_address": "서울특별시 동작구 여의대방로24나길 6",
+      "detail_address": "(대방동)",
+      "lat": 37.4983962,
+      "lng": 126.9211957,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005334",
+        "postal_code": "07055"
+      }
+    },
+    {
+      "id": "SCH-B100005337",
+      "name": "새열림유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울 동작구 대방동",
+      "road_address": "",
+      "detail_address": "",
+      "lat": 37.5060736,
+      "lng": 126.9281015,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005337",
+        "postal_code": "}"
+      }
+    },
+    {
+      "id": "SCH-B100005377",
+      "name": "학력인정 신동신중학교(2년제)",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 동작대로33마길 27-1",
+      "road_address": "서울특별시 동작구 동작대로33마길 27-1",
+      "detail_address": "(사당동, 신동신중 정보산업 고등학교)",
+      "lat": 37.4907266,
+      "lng": 126.9778705,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005377",
+        "postal_code": "06998"
+      }
+    },
+    {
+      "id": "SCH-B100005376",
+      "name": "학력인정 신동신정보산업고등학교(2년제)",
+      "category": "school",
+      "subcategory": "고등학교",
+      "address": "서울특별시 동작구 동작대로33마길 27-1",
+      "road_address": "서울특별시 동작구 동작대로33마길 27-1",
+      "detail_address": "(사당동, 신동신중 정보산업 고등학교)",
+      "lat": 37.4907266,
+      "lng": 126.9778705,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005376",
+        "postal_code": "06998"
+      }
+    },
+    {
+      "id": "SCH-B100005387",
+      "name": "서울삼일초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 사당로23나길 27",
+      "road_address": "서울특별시 동작구 사당로23나길 27",
+      "detail_address": ", 서울삼일초등학교 (사당동)",
+      "lat": 37.488464,
+      "lng": 126.975284,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005387",
+        "postal_code": "07000"
+      }
+    },
+    {
+      "id": "SCH-B100005239",
+      "name": "서울공업고등학교부설미래기술교육센터",
+      "category": "school",
+      "subcategory": "고등학교",
+      "address": "서울특별시 동작구 대방동1길 46",
+      "road_address": "서울특별시 동작구 대방동1길 46",
+      "detail_address": "(대방동,서울공업고등학교)",
+      "lat": 37.5013784,
+      "lng": 126.9226274,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005239",
+        "postal_code": "06955"
+      }
+    },
+    {
+      "id": "SCH-B100005567",
+      "name": "서울상현초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 상도로58길 21",
+      "road_address": "서울특별시 동작구 상도로58길 21",
+      "detail_address": "(상도동)",
+      "lat": 37.4949395,
+      "lng": 126.9526964,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005567",
+        "postal_code": "07039"
+      }
+    },
+    {
+      "id": "SCH-B100005532",
+      "name": "행복유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 양녕로23길 25",
+      "road_address": "서울특별시 동작구 양녕로23길 25",
+      "detail_address": "(상도동, 행복유치원)",
+      "lat": 37.4956669,
+      "lng": 126.9411522,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005532",
+        "postal_code": "07049"
+      }
+    },
+    {
+      "id": "SCH-B100005846",
+      "name": "서울문창초등학교병설유치원",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 신대방2길 14",
+      "road_address": "서울특별시 동작구 신대방2길 14",
+      "detail_address": "(신대방동,서울문창초등학교)",
+      "lat": 37.4889443,
+      "lng": 126.9138717,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005846",
+        "postal_code": "07066"
+      }
+    },
+    {
+      "id": "SCH-B100005862",
+      "name": "서울남성초등학교병설유치원",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 사당로23길 57-14",
+      "road_address": "서울특별시 동작구 사당로23길 57-14",
+      "detail_address": "(사당동)",
+      "lat": 37.4845922,
+      "lng": 126.9757041,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005862",
+        "postal_code": "07005"
+      }
+    },
+    {
+      "id": "SCH-B100005863",
+      "name": "서울상도유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 만양로3길 48",
+      "road_address": "서울특별시 동작구 만양로3길 48",
+      "detail_address": "(노량진동) 서울상도유치원",
+      "lat": 37.5082504,
+      "lng": 126.9433247,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005863",
+        "postal_code": "06926"
+      }
+    },
+    {
+      "id": "SCH-B100000477",
+      "name": "수도여자고등학교",
+      "category": "school",
+      "subcategory": "고등학교",
+      "address": "서울특별시 동작구 여의대방로10길 73",
+      "road_address": "서울특별시 동작구 여의대방로10길 73",
+      "detail_address": ", 수도여자고등학교 (신대방동)",
+      "lat": 37.493049,
+      "lng": 126.9155624,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100000477",
+        "postal_code": "07062"
+      }
+    },
+    {
+      "id": "SCH-B100001587",
+      "name": "서울대림초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 대방동1길 22",
+      "road_address": "서울특별시 동작구 대방동1길 22",
+      "detail_address": "(대방동)",
+      "lat": 37.5006252,
+      "lng": 126.9256931,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001587",
+        "postal_code": "06954"
+      }
+    },
+    {
+      "id": "SCH-B100001595",
+      "name": "서울상도초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 성대로21길 62",
+      "road_address": "서울특별시 동작구 성대로21길 62",
+      "detail_address": "(상도동,상도초등학교)",
+      "lat": 37.499852,
+      "lng": 126.9373202,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001595",
+        "postal_code": "06961"
+      }
+    },
+    {
+      "id": "SCH-B100001604",
+      "name": "서울영화초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 등용로8길 3",
+      "road_address": "서울특별시 동작구 등용로8길 3",
+      "detail_address": ", 서울영화초등학교 (대방동)",
+      "lat": 37.5095162,
+      "lng": 126.9330178,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001604",
+        "postal_code": "06933"
+      }
+    },
+    {
+      "id": "SCH-B100001596",
+      "name": "서울신길초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 알마타길 16",
+      "road_address": "서울특별시 동작구 알마타길 16",
+      "detail_address": "(대방동)",
+      "lat": 37.5104253,
+      "lng": 126.9266963,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001596",
+        "postal_code": "06941"
+      }
+    },
+    {
+      "id": "SCH-B100001648",
+      "name": "서울은로초등학교병설유치원",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 서달로 115",
+      "road_address": "서울특별시 동작구 서달로 115",
+      "detail_address": "(흑석동, 은로초등학교)",
+      "lat": 37.50336,
+      "lng": 126.9600697,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001648",
+        "postal_code": "06973"
+      }
+    },
+    {
+      "id": "SCH-B100001653",
+      "name": "성모유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 장승배기로5길 16",
+      "road_address": "서울특별시 동작구 장승배기로5길 16",
+      "detail_address": "(상도동, 성모유치원)",
+      "lat": 37.501582,
+      "lng": 126.9399656,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001653",
+        "postal_code": "06958"
+      }
+    },
+    {
+      "id": "SCH-B100001654",
+      "name": "세나유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 상도3동",
+      "road_address": "",
+      "detail_address": "",
+      "lat": 37.4987343,
+      "lng": 126.9440592,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001654",
+        "postal_code": "}"
+      }
+    },
+    {
+      "id": "SCH-B100001660",
+      "name": "승혜유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 성대로21길 15",
+      "road_address": "서울특별시 동작구 성대로21길 15",
+      "detail_address": "(상도동)",
+      "lat": 37.4987272,
+      "lng": 126.937091,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001660",
+        "postal_code": "06961"
+      }
+    },
+    {
+      "id": "SCH-B100001562",
+      "name": "사당중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 사당로9가길 58",
+      "road_address": "서울특별시 동작구 사당로9가길 58",
+      "detail_address": ", 사당중학교 (사당동)",
+      "lat": 37.4875272,
+      "lng": 126.9690138,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001562",
+        "postal_code": "07003"
+      }
+    },
+    {
+      "id": "SCH-B100001683",
+      "name": "장아유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 만양로8길 50",
+      "road_address": "서울특별시 동작구 만양로8길 50",
+      "detail_address": "(노량진동)",
+      "lat": 37.5096287,
+      "lng": 126.9478043,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001683",
+        "postal_code": "06917"
+      }
+    },
+    {
+      "id": "SCH-B100001686",
+      "name": "중앙대부속유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 흑석로5길 47",
+      "road_address": "서울특별시 동작구 흑석로5길 47",
+      "detail_address": "(흑석동)",
+      "lat": 37.5085657,
+      "lng": 126.9562676,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001686",
+        "postal_code": "06911"
+      }
+    },
+    {
+      "id": "SCH-B100000427",
+      "name": "동작고등학교",
+      "category": "school",
+      "subcategory": "고등학교",
+      "address": "서울특별시 동작구 솔밭로 51",
+      "road_address": "서울특별시 동작구 솔밭로 51",
+      "detail_address": "(사당동,동작고등학교(복합정보센타))",
+      "lat": 37.4823814,
+      "lng": 126.9654343,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100000427",
+        "postal_code": "07031"
+      }
+    },
+    {
+      "id": "SCH-B100001589",
+      "name": "서울문창초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 신대방2길 14",
+      "road_address": "서울특별시 동작구 신대방2길 14",
+      "detail_address": "(신대방동,서울문창초등학교)",
+      "lat": 37.4889443,
+      "lng": 126.9138717,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001589",
+        "postal_code": "07066"
+      }
+    },
+    {
+      "id": "SCH-B100001611",
+      "name": "서울행림초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 솔밭로 47",
+      "road_address": "서울특별시 동작구 솔밭로 47",
+      "detail_address": "(사당동,행림초등학교)",
+      "lat": 37.4824861,
+      "lng": 126.964472,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001611",
+        "postal_code": "07031"
+      }
+    },
+    {
+      "id": "SCH-B100001546",
+      "name": "강현중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 상도로13라길 22",
+      "road_address": "서울특별시 동작구 상도로13라길 22",
+      "detail_address": ", 강현중학교 (상도동)",
+      "lat": 37.5031123,
+      "lng": 126.9311045,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001546",
+        "postal_code": "06953"
+      }
+    },
+    {
+      "id": "SCH-B100001549",
+      "name": "국사봉중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 양녕로20길 20",
+      "road_address": "서울특별시 동작구 양녕로20길 20",
+      "detail_address": ", 국사봉중학교 (상도동)",
+      "lat": 37.4937679,
+      "lng": 126.9448998,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001549",
+        "postal_code": "07038"
+      }
+    },
+    {
+      "id": "SCH-B100001564",
+      "name": "상현중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 사당로2길 2-19",
+      "road_address": "서울특별시 동작구 사당로2길 2-19",
+      "detail_address": "(상도동)",
+      "lat": 37.49414,
+      "lng": 126.9612892,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001564",
+        "postal_code": "07028"
+      }
+    },
+    {
+      "id": "SCH-B100001566",
+      "name": "성남중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 대방동길 74",
+      "road_address": "서울특별시 동작구 대방동길 74",
+      "detail_address": "(대방동)",
+      "lat": 37.5046878,
+      "lng": 126.9269648,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001566",
+        "postal_code": "06946"
+      }
+    },
+    {
+      "id": "SCH-B100000664",
+      "name": "누리학교",
+      "category": "other",
+      "subcategory": "기타",
+      "address": "서울특별시 동작구 상도로 53",
+      "road_address": "서울특별시 동작구 상도로 53",
+      "detail_address": ", 누리학교 (대방동)",
+      "lat": 37.4999932,
+      "lng": 126.9265352,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100000664",
+        "postal_code": "06954"
+      }
+    },
+    {
+      "id": "SCH-B100001585",
+      "name": "서울노량진초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 장승배기로 160",
+      "road_address": "서울특별시 동작구 장승배기로 160",
+      "detail_address": "(노량진동)",
+      "lat": 37.5119189,
+      "lng": 126.9404152,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001585",
+        "postal_code": "06924"
+      }
+    },
+    {
+      "id": "SCH-B100001591",
+      "name": "서울본동초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 노량진로26길 16-40",
+      "road_address": "서울특별시 동작구 노량진로26길 16-40",
+      "detail_address": ", 서울본동초등학교 (본동)",
+      "lat": 37.5105672,
+      "lng": 126.9540399,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001591",
+        "postal_code": "06907"
+      }
+    },
+    {
+      "id": "SCH-B100001563",
+      "name": "상도중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 사당로2가길 72",
+      "road_address": "서울특별시 동작구 사당로2가길 72",
+      "detail_address": ", 상도중학교 (사당동)",
+      "lat": 37.490382,
+      "lng": 126.961533,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001563",
+        "postal_code": "07028"
+      }
+    },
+    {
+      "id": "SCH-B100001571",
+      "name": "영등포중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 등용로8길 5",
+      "road_address": "서울특별시 동작구 등용로8길 5",
+      "detail_address": ", 영등포중학교 (대방동)",
+      "lat": 37.5082263,
+      "lng": 126.9336415,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001571",
+        "postal_code": "06933"
+      }
+    },
+    {
+      "id": "SCH-B100001575",
+      "name": "중앙대학교사범대학부속중학교",
+      "category": "school",
+      "subcategory": "중학교",
+      "address": "서울특별시 동작구 서달로 124",
+      "road_address": "서울특별시 동작구 서달로 124",
+      "detail_address": ", 중앙대학교사범대학부속중학교 (흑석동)",
+      "lat": 37.5044905,
+      "lng": 126.9614561,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001575",
+        "postal_code": "06980"
+      }
+    },
+    {
+      "id": "SCH-B100001576",
+      "name": "서울강남초등학교",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 강남초등길 15",
+      "road_address": "서울특별시 동작구 강남초등길 15",
+      "detail_address": "(상도1동)",
+      "lat": 37.5061028,
+      "lng": 126.9527814,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001576",
+        "postal_code": "06912"
+      }
+    },
+    {
+      "id": "SCH-B100006321",
+      "name": "모아유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 동작대로27길 62",
+      "road_address": "서울특별시 동작구 동작대로27길 62",
+      "detail_address": "(사당동)",
+      "lat": 37.488347,
+      "lng": 126.978993,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100006321",
+        "postal_code": "07008"
+      }
+    },
+    {
+      "id": "SCH-B100005697",
+      "name": "월광미술학원",
+      "category": "academy",
+      "subcategory": "학원",
+      "address": "서울특별시 동작구 사당로2가길 103",
+      "road_address": "서울특별시 동작구 사당로2가길 103",
+      "detail_address": "(사당동, 월광빌딩)",
+      "lat": 37.4895379,
+      "lng": 126.9627851,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005697",
+        "postal_code": "07028"
+      }
+    },
+    {
+      "id": "SCH-B100005671",
+      "name": "그림사랑미술학원",
+      "category": "academy",
+      "subcategory": "학원",
+      "address": "서울특별시 동작구 성대로 36",
+      "road_address": "서울특별시 동작구 성대로 36",
+      "detail_address": "(상도동)",
+      "lat": 37.4990572,
+      "lng": 126.9331683,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005671",
+        "postal_code": "07044"
+      }
+    },
+    {
+      "id": "SCH-B100005692",
+      "name": "메가파워예능미술학원",
+      "category": "academy",
+      "subcategory": "학원",
+      "address": "서울특별시 동작구 신대방11길 13",
+      "road_address": "서울특별시 동작구 신대방11길 13",
+      "detail_address": "(신대방동)",
+      "lat": 37.488538,
+      "lng": 126.9088198,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005692",
+        "postal_code": "07069"
+      }
+    },
+    {
+      "id": "SCH-B100005683",
+      "name": "신그림마당미술학원",
+      "category": "academy",
+      "subcategory": "학원",
+      "address": "서울특별시 동작구 양녕로 274-3",
+      "road_address": "서울특별시 동작구 양녕로 274-3",
+      "detail_address": "(상도1동)",
+      "lat": 37.5038721,
+      "lng": 126.9496753,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005683",
+        "postal_code": "06968"
+      }
+    },
+    {
+      "id": "SCH-B100005694",
+      "name": "오오예능미술학원",
+      "category": "academy",
+      "subcategory": "학원",
+      "address": "서울특별시 동작구 성대로39길 11",
+      "road_address": "서울특별시 동작구 성대로39길 11",
+      "detail_address": "(상도동)",
+      "lat": 37.5004913,
+      "lng": 126.9407935,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005694",
+        "postal_code": "06962"
+      }
+    },
+    {
+      "id": "SCH-B100006032",
+      "name": "서울강남초등학교병설유치원",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 강남초등길 15",
+      "road_address": "서울특별시 동작구 강남초등길 15",
+      "detail_address": ", 서울강남초등학교병설유치원 (상도1동)",
+      "lat": 37.5061028,
+      "lng": 126.9527814,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100006032",
+        "postal_code": "06912"
+      }
+    },
+    {
+      "id": "SCH-B100005670",
+      "name": "강남미술학원",
+      "category": "academy",
+      "subcategory": "학원",
+      "address": "서울특별시 동작구 보라매로 94-1",
+      "road_address": "서울특별시 동작구 보라매로 94-1",
+      "detail_address": "(신대방동)",
+      "lat": 37.497666,
+      "lng": 126.9282322,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005670",
+        "postal_code": "07053"
+      }
+    },
+    {
+      "id": "SCH-B100005676",
+      "name": "밤비니지니어스 상도미술학원",
+      "category": "academy",
+      "subcategory": "학원",
+      "address": "서울특별시 동작구 장승배기로 37",
+      "road_address": "서울특별시 동작구 장승배기로 37",
+      "detail_address": "(상도동)",
+      "lat": 37.5012755,
+      "lng": 126.9409916,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005676",
+        "postal_code": "06962"
+      }
+    },
+    {
+      "id": "SCH-B100005685",
+      "name": "아이미술학원",
+      "category": "academy",
+      "subcategory": "학원",
+      "address": "서울특별시 동작구 상도로 313",
+      "road_address": "서울특별시 동작구 상도로 313",
+      "detail_address": "(상도1동, PRIMISE)",
+      "lat": 37.5001528,
+      "lng": 126.9506324,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005685",
+        "postal_code": "06970"
+      }
+    },
+    {
+      "id": "SCH-B100005684",
+      "name": "신예본미술학원",
+      "category": "academy",
+      "subcategory": "학원",
+      "address": "서울특별시 동작구 국사봉길 74",
+      "road_address": "서울특별시 동작구 국사봉길 74",
+      "detail_address": "(상도동)",
+      "lat": 37.4965999,
+      "lng": 126.9305697,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005684",
+        "postal_code": "07052"
+      }
+    },
+    {
+      "id": "SCH-B100005704",
+      "name": "푸리울미술학원",
+      "category": "academy",
+      "subcategory": "학원",
+      "address": "서울특별시 동작구 대방동",
+      "road_address": "",
+      "detail_address": "",
+      "lat": 37.5060736,
+      "lng": 126.9281015,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005704",
+        "postal_code": "}"
+      }
+    },
+    {
+      "id": "SCH-B100005686",
+      "name": "아이사랑미술학원",
+      "category": "academy",
+      "subcategory": "학원",
+      "address": "서울특별시 동작구 만양로2길 16",
+      "road_address": "서울특별시 동작구 만양로2길 16",
+      "detail_address": "(상도동)",
+      "lat": 37.5064114,
+      "lng": 126.9486674,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100005686",
+        "postal_code": "06919"
+      }
+    },
+    {
+      "id": "SCH-B100001635",
+      "name": "상도유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 상도로47길 51",
+      "road_address": "서울특별시 동작구 상도로47길 51",
+      "detail_address": "(상도1동)",
+      "lat": 37.501361,
+      "lng": 126.9515019,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001635",
+        "postal_code": "06970"
+      }
+    },
+    {
+      "id": "SCH-B100001695",
+      "name": "효성유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 상도4동",
+      "road_address": "",
+      "detail_address": "",
+      "lat": 37.4987343,
+      "lng": 126.9440592,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001695",
+        "postal_code": "}"
+      }
+    },
+    {
+      "id": "SCH-B100001630",
+      "name": "명수유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 흑석로13길 3",
+      "road_address": "서울특별시 동작구 흑석로13길 3",
+      "detail_address": "(흑석동, 천주교서울대교구 흑석동성당)",
+      "lat": 37.5089347,
+      "lng": 126.9603106,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001630",
+        "postal_code": "06910"
+      }
+    },
+    {
+      "id": "SCH-B100002504",
+      "name": "영등포고등학교부설방송통신고등학교",
+      "category": "school",
+      "subcategory": "고등학교",
+      "address": "서울특별시 동작구 등용로8길 5",
+      "road_address": "서울특별시 동작구 등용로8길 5",
+      "detail_address": ", 대방동 13-2 (대방동, 영등포고등학교부설방송통신고등학교)",
+      "lat": 37.5082263,
+      "lng": 126.9336415,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100002504",
+        "postal_code": "06933"
+      }
+    },
+    {
+      "id": "SCH-B100006207",
+      "name": "샛별유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 상도로50길 36-1",
+      "road_address": "서울특별시 동작구 상도로50길 36-1",
+      "detail_address": "(상도동)",
+      "lat": 37.4980421,
+      "lng": 126.9502645,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100006207",
+        "postal_code": "07033"
+      }
+    },
+    {
+      "id": "SCH-B100006369",
+      "name": "서울행림초등학교병설유치원",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 솔밭로 47",
+      "road_address": "서울특별시 동작구 솔밭로 47",
+      "detail_address": "(사당동)",
+      "lat": 37.4824861,
+      "lng": 126.964472,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100006369",
+        "postal_code": "07031"
+      }
+    },
+    {
+      "id": "SCH-B100006365",
+      "name": "서울노량진초등학교병설유치원",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 장승배기로 160",
+      "road_address": "서울특별시 동작구 장승배기로 160",
+      "detail_address": "(노량진동)",
+      "lat": 37.5119189,
+      "lng": 126.9404152,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100006365",
+        "postal_code": "06924"
+      }
+    },
+    {
+      "id": "SCH-B100006366",
+      "name": "서울본동초등학교병설유치원",
+      "category": "school",
+      "subcategory": "초등학교",
+      "address": "서울특별시 동작구 노량진로26길 16-40",
+      "road_address": "서울특별시 동작구 노량진로26길 16-40",
+      "detail_address": "(본동)",
+      "lat": 37.5105672,
+      "lng": 126.9540399,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100006366",
+        "postal_code": "06907"
+      }
+    },
+    {
+      "id": "SCH-B100006387",
+      "name": "시현유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 만양로8길 50",
+      "road_address": "서울특별시 동작구 만양로8길 50",
+      "detail_address": "(노량진동)",
+      "lat": 37.5096287,
+      "lng": 126.9478043,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100006387",
+        "postal_code": "06917"
+      }
+    },
+    {
+      "id": "SCH-B100001667",
+      "name": "아이사랑유치원",
+      "category": "kindergarten",
+      "subcategory": "유치원(일반)",
+      "address": "서울특별시 동작구 상도2동",
+      "road_address": "",
+      "detail_address": "",
+      "lat": 37.5028314,
+      "lng": 126.9425682,
+      "source": "학교별위치정보",
+      "properties": {
+        "school_code": "B100001667",
+        "postal_code": "}"
+      }
+    }
+  ]
+}

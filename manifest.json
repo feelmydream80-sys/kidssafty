@@ -1,0 +1,19 @@
+{
+  "name": "아이안전지키",
+  "short_name": "아이안전",
+  "description": "어린이 사고 다발 구역 경고 앱 - 동작구 어린이 안전 지도",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#e74c3c",
+  "categories": ["education", "safety", "maps"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+/* Minimal CSS - main styles are in index.html */
+body { margin: 0; padding: 0; }
+.hidden { display: none !important; }
