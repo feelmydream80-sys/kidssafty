@@ -95,23 +95,33 @@ export function updateUserCircle() {
 export function checkProximity() {
     if (!window.userLocation) return;
     
+    const dangerR = APP_CONFIG.DANGER_RADIUS;
+    const cautionR = APP_CONFIG.CAUTION_RADIUS;
+    const dangerResetR = dangerR + 3;
+    const cautionResetR = cautionR + 3;
+    
     let nearestDanger = null;
     let minDangerDist = Infinity;
     let nearestCaution = null;
     let minCautionDist = Infinity;
+    let anyInCautionReset = false;
+    let anyInDangerReset = false;
     
     childSafetyZones.forEach(zone => {
         if (!zone.lat || !zone.lng) return;
         
         const dist = getDistance(window.userLocation.lat, window.userLocation.lng, zone.lat, zone.lng);
         
+        if (dist <= cautionResetR) anyInCautionReset = true;
+        if (dist <= dangerResetR) anyInDangerReset = true;
+        
         if (zone.isCrosswalk) {
-            if (dist <= APP_CONFIG.CAUTION_RADIUS && dist < minCautionDist) {
+            if (dist < minCautionDist) {
                 minCautionDist = dist;
                 nearestCaution = zone;
             }
         } else {
-            if (dist <= APP_CONFIG.DANGER_RADIUS && dist < minDangerDist) {
+            if (dist < minDangerDist) {
                 minDangerDist = dist;
                 nearestDanger = zone;
             }
@@ -120,30 +130,39 @@ export function checkProximity() {
     
     const btnAlert = document.getElementById('btn-alert');
     const isAlertOn = btnAlert && !btnAlert.classList.contains('off');
-    
     const btnCaution = document.getElementById('btn-caution');
     const isCautionOn = btnCaution && !btnCaution.classList.contains('off');
     
-    if (nearestDanger) {
-        if (isAlertOn) showAlert(nearestDanger, minDangerDist, 'danger');
-        if (!window.inDangerZone && minDangerDist <= APP_CONFIG.DANGER_RADIUS) {
-            window.inDangerZone = true;
-            startMission(nearestDanger);
+    const nearest = minDangerDist <= minCautionDist ? nearestDanger : nearestCaution;
+    const nearestDist = Math.min(minDangerDist, minCautionDist);
+    
+    // Alert: CAUTION_RADIUS 이내면 표시, CAUTION_RADIUS+3 밖이면 해제
+    if (nearest && nearestDist <= cautionR) {
+        if (isAlertOn || isCautionOn) {
+            const type = nearest.isCrosswalk ? 'caution' : 'danger';
+            showAlert(nearest, nearestDist, type);
         }
-    } else if (nearestCaution) {
-        if (isCautionOn) showAlert(nearestCaution, minCautionDist, 'caution');
-        if (minCautionDist <= APP_CONFIG.DANGER_RADIUS) {
+    } else if (!anyInCautionReset) {
+        dismissAlert();
+    }
+    
+    // Mission: DANGER_RADIUS 이내면 발동, DANGER_RADIUS+3 밖이면 리셋
+    if (nearest && nearestDist <= dangerR) {
+        const isCrosswalk = nearest.isCrosswalk;
+        if (isCrosswalk) {
             if (!window.inCrosswalk) {
                 window.inCrosswalk = true;
-                startMission(nearestCaution);
+                startMission(nearest);
             }
         } else {
-            window.inCrosswalk = false;
+            if (!window.inDangerZone) {
+                window.inDangerZone = true;
+                startMission(nearest);
+            }
         }
-    } else {
-        if (!nearestDanger) window.inDangerZone = false;
-        if (!nearestCaution) window.inCrosswalk = false;
-        dismissAlert();
+    } else if (!anyInDangerReset) {
+        window.inDangerZone = false;
+        window.inCrosswalk = false;
     }
     
     const distDisplay = document.getElementById('distance-display');
