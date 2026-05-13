@@ -126,15 +126,19 @@ export function checkProximity() {
     
     if (nearestDanger) {
         if (isAlertOn) showAlert(nearestDanger, minDangerDist, 'danger');
-        if (!window.inDangerZone) {
+        if (!window.inDangerZone && minDangerDist <= APP_CONFIG.DANGER_RADIUS) {
             window.inDangerZone = true;
             startMission(nearestDanger);
         }
     } else if (nearestCaution) {
         if (isCautionOn) showAlert(nearestCaution, minCautionDist, 'caution');
-        if (!window.inCrosswalk) {
-            window.inCrosswalk = true;
-            startMission(nearestCaution);
+        if (minCautionDist <= APP_CONFIG.DANGER_RADIUS) {
+            if (!window.inCrosswalk) {
+                window.inCrosswalk = true;
+                startMission(nearestCaution);
+            }
+        } else {
+            window.inCrosswalk = false;
         }
     } else {
         if (!nearestDanger) window.inDangerZone = false;
