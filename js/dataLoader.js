@@ -69,8 +69,6 @@ export function loadZones() {
             loadSchoolSafetyGrades();
             // 횡단보도
             loadCrosswalks();
-            // 위험밀도 히트맵
-            loadDensity();
             // 테이블 채움
             fillTables(items);
 
@@ -196,21 +194,6 @@ export function loadCrosswalks() {
             }
         })
         .catch(err => console.error('[Data] 횡단보도 로드 실패:', err));
-}
-
-function loadDensity() {
-    fetch('data/analysis/risk_density_grid.json')
-        .then(res => res.json())
-        .then(d => {
-            if (typeof L.heatLayer === 'undefined') return;
-            const hp = (d.grid || []).filter(p => p.density >= 0.4).map(p => [p.lat, p.lng, p.density]);
-            if (hp.length > 0) {
-                L.heatLayer(hp, { radius: 20, blur: 15, maxZoom: 17,
-                    gradient: { 0.4: 'blue', 0.6: 'yellow', 0.8: 'orange', 1.0: 'red' }
-                }).addTo(window.map);
-            }
-        })
-        .catch(() => {});
 }
 
 export function fillTables(items) {

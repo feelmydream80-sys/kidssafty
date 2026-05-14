@@ -17,9 +17,6 @@ steps = [
     ('Layer 2', '통합 위치정보 생성', ['python', 'merge_locations.py']),
     ('Layer 3-1', '학교 안전등급 분석', ['python', 'risk_prediction/school_safety_grader.py']),
     ('Layer 3-2', '횡단보도 접근성', ['python', 'risk_prediction/accessibility_score.py']),
-    ('Layer 3-3', '신호등 우선순위', ['python', 'risk_prediction/signal_priority.py']),
-    ('Layer 3-4', '안전 지수', ['python', 'risk_prediction/safety_index.py']),
-    ('Layer 3-5', '위험 밀도 맵', ['python', 'risk_prediction/density_mapper.py']),
 ]
 
 total_start = time.time()
