@@ -24,3 +24,6 @@ Thumbs.db
 _temp/
 _test/
 *.tmp
+
+# Font
+malgun*.ttf
