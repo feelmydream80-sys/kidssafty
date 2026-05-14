@@ -1,8 +1,10 @@
 from fpdf import FPDF
 import re
 
-FONT_REG = 'C:/dev/kidssafty/malgun.ttf'
-FONT_BOLD = 'C:/dev/kidssafty/malgunbd.ttf'
+import os
+BASE = os.path.dirname(os.path.abspath(__file__))
+FONT_REG = os.path.join(BASE, 'malgun.ttf') if os.path.exists(os.path.join(BASE, 'malgun.ttf')) else 'C:/Windows/Fonts/malgun.ttf'
+FONT_BOLD = os.path.join(BASE, 'malgunbd.ttf') if os.path.exists(os.path.join(BASE, 'malgunbd.ttf')) else 'C:/Windows/Fonts/malgunbd.ttf'
 
 class SlidePDF(FPDF):
     def __init__(self):
@@ -13,8 +15,8 @@ class SlidePDF(FPDF):
         self.margin = 12
         self.content_w = self.page_w - self.margin * 2
 
-        self.add_font('NG', '', FONT_REG, uni=True)
-        self.add_font('NG', 'B', FONT_BOLD, uni=True)
+        self.add_font('NG', '', FONT_REG)
+        self.add_font('NG', 'B', FONT_BOLD)
 
     def add_slide(self, title, items):
         self.add_page()
